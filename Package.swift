@@ -12,7 +12,10 @@ let package = Package(
     products: [
         .library(
             name: "NMapsMap",
-            targets: ["NMapsMap"]
+            targets: [
+                "NMapsMap",
+                "NMapsGeometry"
+            ]
         )
     ],
     targets: [
